@@ -26,8 +26,13 @@ cite {
 
 /* ajout du focus  */
 
-a:focus-visible {
-border: blue 3px solid;}
+.scrollToTop:focus,
+input:focus,
+textarea:focus,
+button:focus,
+a:focus{
+border: blue 3px solid;}  
+
 
 
 
@@ -855,7 +860,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
