@@ -33,6 +33,23 @@ button:focus,
 a:focus{
 border: blue 3px solid;}  
 
+/* modif adress contact  */
+.col-sm-6 address {
+margin-bottom: none;
+font-style: none;
+line-height: none;
+margin-bottom: 10px;
+color:#000000
+}
+
+@media (max-width: 767px) {
+    .col-sm-6 address {
+    padding-left: 10px;
+    }
+    
+}
+
+
 
 
 
@@ -1078,4 +1095,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+
 }
