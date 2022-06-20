@@ -31,7 +31,11 @@ input:focus,
 textarea:focus,
 button:focus,
 a:focus{
-border: blue 3px solid;}  
+border: blue 3px solid;
+opacity: 1;
+}  
+  
+
 
 /* modif adress contact  */
 .col-sm-6 address {
@@ -443,7 +447,7 @@ a:hover {
         display: inline-block;
     }
     .nav-center .site-navigation {
-        position: relative;
+            position: relative;
         width: 100%;
         right: 0;
         margin-right: 0px;
@@ -656,8 +660,8 @@ a[data-lightbox]:hover img {
 .next-lightbox:hover,
 .prev-lightbox:hover {
     opacity: 1.0;
-    color: #FFF;
 }
+
 
 .next-lightbox,
 .prev-lightbox {
