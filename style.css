@@ -57,10 +57,6 @@ color:#000000
     
 }
 
-
-
-
-
 body {
     margin: 0;
     padding: 0;
@@ -885,11 +881,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/image-banniere-footer.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
